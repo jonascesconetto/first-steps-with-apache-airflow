@@ -22,15 +22,13 @@ Este repositório contém os códigos utilizados durante curso de Data Pipelines
     airflow scheduler\
     '
     ```
-
   - Verificando o container em execução.
     ```powershell
     docker container ls
     ```
-    
-- Verificando os logs do container
-  ```powershell
-    docker container logs airflow
-  ```
-- Se nenhum erro aparecer, acesse a interface web do Apache Airflow pelo endereço:
-  **https://localhost:8080**
+  - Verificando os logs do container
+    ```powershell
+      docker container logs airflow
+    ```
+  - Se nenhum erro aparecer, acesse a interface web do Apache Airflow pelo endereço:
+    **https://localhost:8080**
